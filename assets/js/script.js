@@ -45,7 +45,7 @@ function writePassword(event) {
     lengthInput = parseInt(lengthInput);
   } while (isNaN(lengthInput) || lengthInput < 8 || lengthInput > 128);
   // Confirm will reprompt for additional parameters for cases and numbers
-  var numeric = confirm("would you like to include numbers?");
+  var numeric = confirm("Would you like to include numbers?");
   var lowercase = confirm("Would you like to include lowercase characters?");
   var uppercase = confirm("Would you like to include UPPERCASE characters?");
   var specialcase = confirm("Would you like to include Special characters?");
